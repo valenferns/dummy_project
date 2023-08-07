@@ -1,0 +1,46 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: grey;
+}
+.reg-form{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+    border: solid rgb(131, 123, 123) 2px;
+    box-shadow: inset;
+    background-color: rgb(62, 61, 61);
+    width: 500px;
+    border-radius: 15px;
+}
+input{
+    width: 70%;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    height: 35px;
+    color:black;
+}
+.btn1{
+    position: relative;
+    left: 150px;
+    bottom:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 90px;
+    border-radius: 17px;
+    height: 35px;
+    margin: 15px;
+    background-color:rgb(146, 150, 156)
+}
+.btn1:hover{
+    background-color: rgb(29, 209, 29);
+}
+h1{
+    color: rgb(36, 212, 13);
+}
